@@ -12,6 +12,7 @@ CREATE TABLE n1_ad (
 Скрипт создания таблицы информации, содержащейся в объявлении
 
 CREATE TABLE n1_ad_info (
+		id 					SERIAL PRIMARY KEY,
 		ad_id 					INT,
 		total_area 				DECIMAL(10, 2),
 		floor					INT,
@@ -27,7 +28,7 @@ CREATE TABLE n1_ad_info (
 			REFERENCES n1_ad(id)
 );
 
-Скрипт сохраниения информации в таблицу n1_ad_info
+Скрипт сохраниения информации в таблицу n1_ad_info  (Не используется, ранняя версия)
 
 insert into n1_ad_info
 Select 

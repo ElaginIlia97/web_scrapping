@@ -13,3 +13,1050 @@ INFO     [2021-07-18 12:26:17,218] Load data from SQL
 INFO     [2021-07-18 12:27:41,333] Get each room info
 INFO     [2021-07-18 12:27:41,412] Load info to database
 INFO     [2021-07-18 12:27:41,436] Execute query
+DEBUG    [2021-07-18 17:54:50,522] diff parser start
+DEBUG    [2021-07-18 17:54:50,540] line_lengths old: 3; new: 1
+DEBUG    [2021-07-18 17:54:50,540] -> code[replace] old[1:3] new[1:1]
+DEBUG    [2021-07-18 17:54:50,559] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 17:54:50,561] diff parser end
+DEBUG    [2021-07-18 17:55:01,671] diff parser start
+DEBUG    [2021-07-18 17:55:01,671] line_lengths old: 1; new: 10
+DEBUG    [2021-07-18 17:55:01,671] -> code[replace] old[1:1] new[1:10]
+DEBUG    [2021-07-18 17:55:01,673] parse_part from 1 to 10 (to 9 in part parser)
+DEBUG    [2021-07-18 17:55:01,673] diff parser end
+DEBUG    [2021-07-18 17:55:05,570] diff parser start
+DEBUG    [2021-07-18 17:55:05,570] line_lengths old: 10; new: 10
+DEBUG    [2021-07-18 17:55:05,570] -> code[equal] old[1:9] new[1:9]
+DEBUG    [2021-07-18 17:55:05,571] copy old[1:9] new[1:9]
+DEBUG    [2021-07-18 17:55:05,571] -> code[replace] old[10:10] new[10:10]
+DEBUG    [2021-07-18 17:55:05,572] parse_part from 10 to 10 (to 9 in part parser)
+DEBUG    [2021-07-18 17:55:05,572] diff parser end
+DEBUG    [2021-07-18 17:55:09,461] diff parser start
+DEBUG    [2021-07-18 17:55:09,461] line_lengths old: 10; new: 10
+DEBUG    [2021-07-18 17:55:09,461] -> code[equal] old[1:9] new[1:9]
+DEBUG    [2021-07-18 17:55:09,462] copy old[1:9] new[1:9]
+DEBUG    [2021-07-18 17:55:09,462] -> code[replace] old[10:10] new[10:10]
+DEBUG    [2021-07-18 17:55:09,462] parse_part from 10 to 10 (to 9 in part parser)
+DEBUG    [2021-07-18 17:55:09,463] diff parser end
+DEBUG    [2021-07-18 17:55:38,884] diff parser start
+DEBUG    [2021-07-18 17:55:38,884] line_lengths old: 10; new: 11
+DEBUG    [2021-07-18 17:55:38,885] -> code[equal] old[1:8] new[1:8]
+DEBUG    [2021-07-18 17:55:38,885] copy old[1:9] new[1:7]
+DEBUG    [2021-07-18 17:55:38,885] parse_part from 8 to 9 (to 9 in part parser)
+DEBUG    [2021-07-18 17:55:38,885] -> code[replace] old[9:10] new[9:11]
+DEBUG    [2021-07-18 17:55:38,886] parse_part from 10 to 11 (to 10 in part parser)
+DEBUG    [2021-07-18 17:55:38,886] diff parser end
+DEBUG    [2021-07-18 17:55:44,833] diff parser start
+DEBUG    [2021-07-18 17:55:44,833] line_lengths old: 11; new: 11
+DEBUG    [2021-07-18 17:55:44,834] -> code[equal] old[1:10] new[1:10]
+DEBUG    [2021-07-18 17:55:44,834] copy old[1:10] new[1:10]
+DEBUG    [2021-07-18 17:55:44,835] -> code[replace] old[11:11] new[11:11]
+DEBUG    [2021-07-18 17:55:44,836] parse_part from 11 to 11 (to 10 in part parser)
+DEBUG    [2021-07-18 17:55:44,837] diff parser end
+DEBUG    [2021-07-18 17:56:57,339] diff parser start
+DEBUG    [2021-07-18 17:56:57,340] line_lengths old: 11; new: 12
+DEBUG    [2021-07-18 17:56:57,340] -> code[equal] old[1:10] new[1:10]
+DEBUG    [2021-07-18 17:56:57,340] copy old[1:10] new[1:10]
+DEBUG    [2021-07-18 17:56:57,340] -> code[replace] old[11:11] new[11:12]
+DEBUG    [2021-07-18 17:56:57,341] parse_part from 11 to 12 (to 11 in part parser)
+DEBUG    [2021-07-18 17:56:57,341] diff parser end
+DEBUG    [2021-07-18 17:57:05,107] diff parser start
+DEBUG    [2021-07-18 17:57:05,107] line_lengths old: 12; new: 12
+DEBUG    [2021-07-18 17:57:05,107] -> code[equal] old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:05,111] copy old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:05,111] -> code[replace] old[12:12] new[12:12]
+DEBUG    [2021-07-18 17:57:05,112] parse_part from 12 to 12 (to 11 in part parser)
+DEBUG    [2021-07-18 17:57:05,112] diff parser end
+DEBUG    [2021-07-18 17:57:09,625] diff parser start
+DEBUG    [2021-07-18 17:57:09,625] line_lengths old: 12; new: 12
+DEBUG    [2021-07-18 17:57:09,625] -> code[equal] old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:09,625] copy old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:09,626] -> code[replace] old[12:12] new[12:12]
+DEBUG    [2021-07-18 17:57:09,627] parse_part from 12 to 12 (to 11 in part parser)
+DEBUG    [2021-07-18 17:57:09,627] diff parser end
+DEBUG    [2021-07-18 17:57:18,300] diff parser start
+DEBUG    [2021-07-18 17:57:18,300] line_lengths old: 12; new: 13
+DEBUG    [2021-07-18 17:57:18,301] -> code[equal] old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:18,301] copy old[1:11] new[1:11]
+DEBUG    [2021-07-18 17:57:18,301] -> code[replace] old[12:12] new[12:13]
+DEBUG    [2021-07-18 17:57:18,302] parse_part from 12 to 13 (to 12 in part parser)
+DEBUG    [2021-07-18 17:57:18,302] diff parser end
+DEBUG    [2021-07-18 17:57:20,883] diff parser start
+DEBUG    [2021-07-18 17:57:20,883] line_lengths old: 13; new: 13
+DEBUG    [2021-07-18 17:57:20,883] -> code[equal] old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:57:20,883] copy old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:57:20,883] -> code[replace] old[13:13] new[13:13]
+DEBUG    [2021-07-18 17:57:20,884] parse_part from 13 to 13 (to 12 in part parser)
+DEBUG    [2021-07-18 17:57:20,884] diff parser end
+DEBUG    [2021-07-18 17:57:23,544] diff parser start
+DEBUG    [2021-07-18 17:57:23,544] line_lengths old: 13; new: 13
+DEBUG    [2021-07-18 17:57:23,545] -> code[equal] old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:57:23,546] copy old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:57:23,547] -> code[replace] old[13:13] new[13:13]
+DEBUG    [2021-07-18 17:57:23,547] parse_part from 13 to 13 (to 12 in part parser)
+DEBUG    [2021-07-18 17:57:23,548] diff parser end
+DEBUG    [2021-07-18 17:58:57,025] diff parser start
+DEBUG    [2021-07-18 17:58:57,025] line_lengths old: 13; new: 15
+DEBUG    [2021-07-18 17:58:57,025] -> code[equal] old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:58:57,025] copy old[1:12] new[1:12]
+DEBUG    [2021-07-18 17:58:57,025] -> code[replace] old[13:13] new[13:15]
+DEBUG    [2021-07-18 17:58:57,026] parse_part from 13 to 14 (to 14 in part parser)
+DEBUG    [2021-07-18 17:58:57,026] parse_part from 15 to 15 (to 14 in part parser)
+DEBUG    [2021-07-18 17:58:57,026] diff parser end
+DEBUG    [2021-07-18 17:59:04,953] diff parser start
+DEBUG    [2021-07-18 17:59:04,954] line_lengths old: 15; new: 6
+DEBUG    [2021-07-18 17:59:04,954] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:04,955] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:04,955] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:04,955] -> code[replace] old[6:15] new[6:6]
+DEBUG    [2021-07-18 17:59:04,955] diff parser end
+DEBUG    [2021-07-18 17:59:08,007] diff parser start
+DEBUG    [2021-07-18 17:59:08,007] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:08,008] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:08,008] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:08,008] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:08,008] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:08,008] diff parser end
+DEBUG    [2021-07-18 17:59:27,110] diff parser start
+DEBUG    [2021-07-18 17:59:27,110] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:27,110] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:27,111] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:27,111] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:27,111] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:27,112] diff parser end
+DEBUG    [2021-07-18 17:59:28,322] diff parser start
+DEBUG    [2021-07-18 17:59:28,323] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:28,323] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:28,323] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:28,324] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:28,324] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:28,324] diff parser end
+DEBUG    [2021-07-18 17:59:28,466] diff parser start
+DEBUG    [2021-07-18 17:59:28,466] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:28,466] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:28,466] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:28,466] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:28,466] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:28,467] diff parser end
+DEBUG    [2021-07-18 17:59:29,146] diff parser start
+DEBUG    [2021-07-18 17:59:29,146] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:29,146] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:29,146] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:29,147] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:29,147] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:29,147] diff parser end
+DEBUG    [2021-07-18 17:59:29,458] diff parser start
+DEBUG    [2021-07-18 17:59:29,458] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:29,458] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:29,459] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:29,459] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:29,459] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:29,459] diff parser end
+DEBUG    [2021-07-18 17:59:29,611] diff parser start
+DEBUG    [2021-07-18 17:59:29,611] line_lengths old: 6; new: 6
+DEBUG    [2021-07-18 17:59:29,611] -> code[equal] old[1:5] new[1:5]
+DEBUG    [2021-07-18 17:59:29,612] copy old[1:4] new[1:4]
+DEBUG    [2021-07-18 17:59:29,612] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 17:59:29,612] -> code[replace] old[6:6] new[6:6]
+DEBUG    [2021-07-18 17:59:29,612] diff parser end
+DEBUG    [2021-07-18 17:59:36,955] diff parser start
+DEBUG    [2021-07-18 17:59:36,955] line_lengths old: 6; new: 1
+DEBUG    [2021-07-18 17:59:36,955] -> code[replace] old[1:6] new[1:1]
+DEBUG    [2021-07-18 17:59:36,955] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 17:59:36,956] diff parser end
+DEBUG    [2021-07-18 18:00:54,314] diff parser start
+DEBUG    [2021-07-18 18:00:54,314] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:00:54,314] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:00:54,314] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:00:54,314] diff parser end
+DEBUG    [2021-07-18 18:00:54,503] diff parser start
+DEBUG    [2021-07-18 18:00:54,504] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:00:54,504] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:00:54,505] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:00:54,506] diff parser end
+DEBUG    [2021-07-18 18:00:54,750] diff parser start
+DEBUG    [2021-07-18 18:00:54,750] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:00:54,750] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:00:54,752] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:00:54,752] diff parser end
+DEBUG    [2021-07-18 18:00:54,898] diff parser start
+DEBUG    [2021-07-18 18:00:54,898] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:00:54,898] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:00:54,898] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:00:54,898] diff parser end
+DEBUG    [2021-07-18 18:03:21,102] diff parser start
+DEBUG    [2021-07-18 18:03:21,103] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:03:21,104] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:03:21,105] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:03:21,105] diff parser end
+DEBUG    [2021-07-18 18:04:47,079] diff parser start
+DEBUG    [2021-07-18 18:04:47,080] line_lengths old: 1; new: 3
+DEBUG    [2021-07-18 18:04:47,080] -> code[replace] old[1:1] new[1:3]
+DEBUG    [2021-07-18 18:04:47,080] parse_part from 1 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 18:04:47,081] diff parser end
+DEBUG    [2021-07-18 18:05:12,480] diff parser start
+DEBUG    [2021-07-18 18:05:12,480] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 18:05:12,480] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 18:05:12,481] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:05:12,481] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 18:05:12,482] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 18:05:12,482] diff parser end
+DEBUG    [2021-07-18 18:15:30,886] diff parser start
+DEBUG    [2021-07-18 18:15:30,887] line_lengths old: 3; new: 1
+DEBUG    [2021-07-18 18:15:30,887] -> code[replace] old[1:3] new[1:1]
+DEBUG    [2021-07-18 18:15:30,887] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:15:30,887] diff parser end
+DEBUG    [2021-07-18 18:16:33,411] diff parser start
+DEBUG    [2021-07-18 18:16:33,412] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:33,412] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:33,412] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:33,412] diff parser end
+DEBUG    [2021-07-18 18:16:36,915] diff parser start
+DEBUG    [2021-07-18 18:16:36,915] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:36,915] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:36,915] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:36,915] diff parser end
+DEBUG    [2021-07-18 18:16:40,202] diff parser start
+DEBUG    [2021-07-18 18:16:40,202] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:40,202] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:40,203] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:40,203] diff parser end
+DEBUG    [2021-07-18 18:16:40,857] diff parser start
+DEBUG    [2021-07-18 18:16:40,857] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:40,857] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:40,858] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:40,858] diff parser end
+DEBUG    [2021-07-18 18:16:43,790] diff parser start
+DEBUG    [2021-07-18 18:16:43,791] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:43,791] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:43,792] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:43,792] diff parser end
+DEBUG    [2021-07-18 18:16:48,472] diff parser start
+DEBUG    [2021-07-18 18:16:48,472] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:48,472] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:48,473] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:48,473] diff parser end
+DEBUG    [2021-07-18 18:16:51,049] diff parser start
+DEBUG    [2021-07-18 18:16:51,049] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:16:51,049] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:16:51,049] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:16:51,049] diff parser end
+DEBUG    [2021-07-18 18:17:04,248] diff parser start
+DEBUG    [2021-07-18 18:17:04,248] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:17:04,248] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:17:04,249] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:17:04,249] diff parser end
+DEBUG    [2021-07-18 18:17:17,543] diff parser start
+DEBUG    [2021-07-18 18:17:17,543] line_lengths old: 1; new: 4
+DEBUG    [2021-07-18 18:17:17,543] -> code[replace] old[1:1] new[1:4]
+DEBUG    [2021-07-18 18:17:17,543] parse_part from 1 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 18:17:17,544] diff parser end
+DEBUG    [2021-07-18 18:18:02,327] diff parser start
+DEBUG    [2021-07-18 18:18:02,327] line_lengths old: 4; new: 1
+DEBUG    [2021-07-18 18:18:02,327] -> code[replace] old[1:4] new[1:1]
+DEBUG    [2021-07-18 18:18:02,328] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:18:02,328] diff parser end
+DEBUG    [2021-07-18 18:18:06,556] diff parser start
+DEBUG    [2021-07-18 18:18:06,557] line_lengths old: 1; new: 3
+DEBUG    [2021-07-18 18:18:06,557] -> code[replace] old[1:1] new[1:3]
+DEBUG    [2021-07-18 18:18:06,558] parse_part from 1 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 18:18:06,558] diff parser end
+DEBUG    [2021-07-18 18:18:08,294] diff parser start
+DEBUG    [2021-07-18 18:18:08,294] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 18:18:08,294] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 18:18:08,294] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:18:08,294] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 18:18:08,294] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 18:18:08,294] diff parser end
+DEBUG    [2021-07-18 18:18:11,917] diff parser start
+DEBUG    [2021-07-18 18:18:11,917] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 18:18:11,917] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 18:18:11,917] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:18:11,918] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 18:18:11,918] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 18:18:11,918] diff parser end
+DEBUG    [2021-07-18 18:19:56,886] diff parser start
+DEBUG    [2021-07-18 18:19:56,886] line_lengths old: 3; new: 1
+DEBUG    [2021-07-18 18:19:56,886] -> code[replace] old[1:3] new[1:1]
+DEBUG    [2021-07-18 18:19:56,887] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:19:56,887] diff parser end
+DEBUG    [2021-07-18 18:20:01,519] diff parser start
+DEBUG    [2021-07-18 18:20:01,519] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:20:01,519] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:01,520] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:20:01,520] diff parser end
+DEBUG    [2021-07-18 18:20:02,440] diff parser start
+DEBUG    [2021-07-18 18:20:02,441] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:20:02,441] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:02,441] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:20:02,442] diff parser end
+DEBUG    [2021-07-18 18:20:02,824] diff parser start
+DEBUG    [2021-07-18 18:20:02,824] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:20:02,824] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:02,824] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:20:02,824] diff parser end
+DEBUG    [2021-07-18 18:20:06,361] diff parser start
+DEBUG    [2021-07-18 18:20:06,361] line_lengths old: 1; new: 2
+DEBUG    [2021-07-18 18:20:06,361] -> code[replace] old[1:1] new[1:2]
+DEBUG    [2021-07-18 18:20:06,362] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:06,362] diff parser end
+DEBUG    [2021-07-18 18:20:10,870] diff parser start
+DEBUG    [2021-07-18 18:20:10,870] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:20:10,871] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:10,873] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:10,873] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 18:20:10,873] diff parser end
+DEBUG    [2021-07-18 18:20:11,173] diff parser start
+DEBUG    [2021-07-18 18:20:11,173] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:20:11,174] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:11,175] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:11,175] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 18:20:11,176] diff parser end
+DEBUG    [2021-07-18 18:20:18,970] diff parser start
+DEBUG    [2021-07-18 18:20:18,971] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:20:18,971] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:18,972] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:18,972] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 18:20:18,972] diff parser end
+DEBUG    [2021-07-18 18:20:22,469] diff parser start
+DEBUG    [2021-07-18 18:20:22,469] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:20:22,470] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:22,471] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:22,471] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 18:20:22,471] diff parser end
+DEBUG    [2021-07-18 18:20:29,564] diff parser start
+DEBUG    [2021-07-18 18:20:29,564] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:20:29,565] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:20:29,565] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:20:29,566] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 18:20:29,566] diff parser end
+DEBUG    [2021-07-18 18:25:27,813] diff parser start
+DEBUG    [2021-07-18 18:25:27,813] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 18:25:27,814] -> code[replace] old[1:2] new[1:2]
+DEBUG    [2021-07-18 18:25:27,814] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 18:25:27,814] diff parser end
+DEBUG    [2021-07-18 18:27:38,532] diff parser start
+DEBUG    [2021-07-18 18:27:38,532] line_lengths old: 2; new: 1
+DEBUG    [2021-07-18 18:27:38,533] -> code[replace] old[1:2] new[1:1]
+DEBUG    [2021-07-18 18:27:38,534] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:27:38,534] diff parser end
+DEBUG    [2021-07-18 18:28:16,379] diff parser start
+DEBUG    [2021-07-18 18:28:16,379] line_lengths old: 1; new: 1
+DEBUG    [2021-07-18 18:28:16,379] -> code[replace] old[1:1] new[1:1]
+DEBUG    [2021-07-18 18:28:16,380] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 18:28:16,380] diff parser end
+DEBUG    [2021-07-18 20:34:06,773] diff parser start
+DEBUG    [2021-07-18 20:34:06,776] line_lengths old: 1; new: 22
+DEBUG    [2021-07-18 20:34:06,776] -> code[replace] old[1:1] new[1:22]
+DEBUG    [2021-07-18 20:34:06,782] parse_part from 1 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:06,782] diff parser end
+DEBUG    [2021-07-18 20:34:07,221] diff parser start
+DEBUG    [2021-07-18 20:34:07,221] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:07,221] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:07,222] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:07,222] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,222] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:07,222] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,223] diff parser end
+DEBUG    [2021-07-18 20:34:07,379] diff parser start
+DEBUG    [2021-07-18 20:34:07,380] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:07,380] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:07,381] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:07,381] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,381] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:07,381] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,381] diff parser end
+DEBUG    [2021-07-18 20:34:07,603] diff parser start
+DEBUG    [2021-07-18 20:34:07,604] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:07,604] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:07,604] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:07,604] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,604] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:07,604] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,605] diff parser end
+DEBUG    [2021-07-18 20:34:07,810] diff parser start
+DEBUG    [2021-07-18 20:34:07,811] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:07,812] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:07,813] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:07,815] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,815] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:07,816] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:07,817] diff parser end
+DEBUG    [2021-07-18 20:34:10,332] diff parser start
+DEBUG    [2021-07-18 20:34:10,332] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:10,332] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:10,333] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:10,333] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:10,333] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:10,334] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:10,334] diff parser end
+DEBUG    [2021-07-18 20:34:12,331] diff parser start
+DEBUG    [2021-07-18 20:34:12,332] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:12,332] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:12,333] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:12,333] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:12,333] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:12,334] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:12,334] diff parser end
+DEBUG    [2021-07-18 20:34:13,039] diff parser start
+DEBUG    [2021-07-18 20:34:13,039] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:13,039] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:13,040] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:13,040] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,041] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:13,042] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,042] diff parser end
+DEBUG    [2021-07-18 20:34:13,183] diff parser start
+DEBUG    [2021-07-18 20:34:13,183] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:13,183] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:13,184] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:13,184] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,184] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:13,185] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,185] diff parser end
+DEBUG    [2021-07-18 20:34:13,404] diff parser start
+DEBUG    [2021-07-18 20:34:13,405] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:13,405] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:13,405] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:13,405] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,405] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:13,406] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:13,406] diff parser end
+DEBUG    [2021-07-18 20:34:19,156] diff parser start
+DEBUG    [2021-07-18 20:34:19,156] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:19,156] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:19,157] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:19,157] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:19,157] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:19,157] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:19,157] diff parser end
+DEBUG    [2021-07-18 20:34:19,956] diff parser start
+DEBUG    [2021-07-18 20:34:19,956] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:19,956] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:19,957] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:19,957] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:19,958] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:19,958] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:19,959] diff parser end
+DEBUG    [2021-07-18 20:34:20,129] diff parser start
+DEBUG    [2021-07-18 20:34:20,130] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:20,130] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:20,131] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:20,132] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:20,132] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:20,133] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:20,133] diff parser end
+DEBUG    [2021-07-18 20:34:20,389] diff parser start
+DEBUG    [2021-07-18 20:34:20,389] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:20,389] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:20,389] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:20,390] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:20,390] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:20,390] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:20,390] diff parser end
+DEBUG    [2021-07-18 20:34:23,195] diff parser start
+DEBUG    [2021-07-18 20:34:23,195] line_lengths old: 22; new: 22
+DEBUG    [2021-07-18 20:34:23,195] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:23,195] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:23,196] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:23,196] -> code[replace] old[22:22] new[22:22]
+DEBUG    [2021-07-18 20:34:23,197] parse_part from 22 to 22 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:23,197] diff parser end
+DEBUG    [2021-07-18 20:34:28,698] diff parser start
+DEBUG    [2021-07-18 20:34:28,699] line_lengths old: 22; new: 23
+DEBUG    [2021-07-18 20:34:28,699] -> code[equal] old[1:21] new[1:21]
+DEBUG    [2021-07-18 20:34:28,699] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:28,699] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:28,699] -> code[replace] old[22:22] new[22:23]
+DEBUG    [2021-07-18 20:34:28,699] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:28,700] diff parser end
+DEBUG    [2021-07-18 20:34:32,137] diff parser start
+DEBUG    [2021-07-18 20:34:32,137] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:32,137] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:32,138] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:32,138] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:32,139] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:32,139] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:32,139] diff parser end
+DEBUG    [2021-07-18 20:34:32,371] diff parser start
+DEBUG    [2021-07-18 20:34:32,371] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:32,371] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:32,372] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:32,372] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:32,372] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:32,372] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:32,372] diff parser end
+DEBUG    [2021-07-18 20:34:32,503] diff parser start
+DEBUG    [2021-07-18 20:34:32,503] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:32,503] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:32,503] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:32,504] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:32,504] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:32,504] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:32,504] diff parser end
+DEBUG    [2021-07-18 20:34:32,596] diff parser start
+DEBUG    [2021-07-18 20:34:32,597] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:32,597] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:32,598] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:32,598] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:32,599] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:32,599] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:32,599] diff parser end
+DEBUG    [2021-07-18 20:34:32,784] diff parser start
+DEBUG    [2021-07-18 20:34:32,784] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:32,784] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:32,785] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:32,785] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:32,785] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:32,786] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:32,786] diff parser end
+DEBUG    [2021-07-18 20:34:34,546] diff parser start
+DEBUG    [2021-07-18 20:34:34,547] line_lengths old: 23; new: 23
+DEBUG    [2021-07-18 20:34:34,547] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:34,547] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:34,548] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:34,548] parse_part from 22 to 23 (to 22 in part parser)
+DEBUG    [2021-07-18 20:34:34,549] -> code[replace] old[23:23] new[23:23]
+DEBUG    [2021-07-18 20:34:34,549] diff parser end
+DEBUG    [2021-07-18 20:34:57,927] diff parser start
+DEBUG    [2021-07-18 20:34:57,927] line_lengths old: 23; new: 25
+DEBUG    [2021-07-18 20:34:57,927] -> code[equal] old[1:22] new[1:22]
+DEBUG    [2021-07-18 20:34:57,927] copy old[1:20] new[1:20]
+DEBUG    [2021-07-18 20:34:57,928] parse_part from 21 to 21 (to 21 in part parser)
+DEBUG    [2021-07-18 20:34:57,929] parse_part from 22 to 25 (to 24 in part parser)
+DEBUG    [2021-07-18 20:34:57,929] -> code[replace] old[23:23] new[23:25]
+DEBUG    [2021-07-18 20:34:57,929] diff parser end
+DEBUG    [2021-07-18 20:35:05,267] diff parser start
+DEBUG    [2021-07-18 20:35:05,268] line_lengths old: 25; new: 25
+DEBUG    [2021-07-18 20:35:05,268] -> code[equal] old[1:24] new[1:24]
+DEBUG    [2021-07-18 20:35:05,268] copy old[1:24] new[1:23]
+DEBUG    [2021-07-18 20:35:05,269] parse_part from 24 to 25 (to 24 in part parser)
+DEBUG    [2021-07-18 20:35:05,269] -> code[replace] old[25:25] new[25:25]
+DEBUG    [2021-07-18 20:35:05,269] diff parser end
+DEBUG    [2021-07-18 20:35:10,500] diff parser start
+DEBUG    [2021-07-18 20:35:10,501] line_lengths old: 25; new: 25
+DEBUG    [2021-07-18 20:35:10,501] -> code[equal] old[1:24] new[1:24]
+DEBUG    [2021-07-18 20:35:10,502] copy old[1:24] new[1:23]
+DEBUG    [2021-07-18 20:35:10,504] parse_part from 24 to 25 (to 24 in part parser)
+DEBUG    [2021-07-18 20:35:10,504] -> code[replace] old[25:25] new[25:25]
+DEBUG    [2021-07-18 20:35:10,504] diff parser end
+DEBUG    [2021-07-18 20:36:05,238] diff parser start
+DEBUG    [2021-07-18 20:36:05,238] line_lengths old: 25; new: 27
+DEBUG    [2021-07-18 20:36:05,238] -> code[equal] old[1:24] new[1:24]
+DEBUG    [2021-07-18 20:36:05,239] copy old[1:24] new[1:23]
+DEBUG    [2021-07-18 20:36:05,239] parse_part from 24 to 25 (to 25 in part parser)
+DEBUG    [2021-07-18 20:36:05,239] -> code[replace] old[25:25] new[25:27]
+DEBUG    [2021-07-18 20:36:05,240] parse_part from 26 to 27 (to 26 in part parser)
+DEBUG    [2021-07-18 20:36:05,240] diff parser end
+DEBUG    [2021-07-18 20:36:09,247] diff parser start
+DEBUG    [2021-07-18 20:36:09,248] line_lengths old: 27; new: 27
+DEBUG    [2021-07-18 20:36:09,248] -> code[equal] old[1:26] new[1:26]
+DEBUG    [2021-07-18 20:36:09,248] copy old[1:26] new[1:26]
+DEBUG    [2021-07-18 20:36:09,248] -> code[replace] old[27:27] new[27:27]
+DEBUG    [2021-07-18 20:36:09,249] parse_part from 27 to 27 (to 26 in part parser)
+DEBUG    [2021-07-18 20:36:09,249] diff parser end
+DEBUG    [2021-07-18 20:36:22,760] diff parser start
+DEBUG    [2021-07-18 20:36:22,760] line_lengths old: 27; new: 28
+DEBUG    [2021-07-18 20:36:22,760] -> code[equal] old[1:26] new[1:26]
+DEBUG    [2021-07-18 20:36:22,761] copy old[1:26] new[1:26]
+DEBUG    [2021-07-18 20:36:22,761] -> code[replace] old[27:27] new[27:28]
+DEBUG    [2021-07-18 20:36:22,761] parse_part from 27 to 28 (to 27 in part parser)
+DEBUG    [2021-07-18 20:36:22,761] diff parser end
+DEBUG    [2021-07-18 20:36:27,939] diff parser start
+DEBUG    [2021-07-18 20:36:27,939] line_lengths old: 28; new: 28
+DEBUG    [2021-07-18 20:36:27,939] -> code[equal] old[1:27] new[1:27]
+DEBUG    [2021-07-18 20:36:27,940] copy old[1:27] new[1:27]
+DEBUG    [2021-07-18 20:36:27,940] -> code[replace] old[28:28] new[28:28]
+DEBUG    [2021-07-18 20:36:27,942] parse_part from 28 to 28 (to 27 in part parser)
+DEBUG    [2021-07-18 20:36:27,943] diff parser end
+DEBUG    [2021-07-18 20:36:32,407] diff parser start
+DEBUG    [2021-07-18 20:36:32,407] line_lengths old: 28; new: 28
+DEBUG    [2021-07-18 20:36:32,407] -> code[equal] old[1:27] new[1:27]
+DEBUG    [2021-07-18 20:36:32,408] copy old[1:27] new[1:27]
+DEBUG    [2021-07-18 20:36:32,408] -> code[replace] old[28:28] new[28:28]
+DEBUG    [2021-07-18 20:36:32,408] parse_part from 28 to 28 (to 27 in part parser)
+DEBUG    [2021-07-18 20:36:32,408] diff parser end
+DEBUG    [2021-07-18 20:39:15,078] diff parser start
+DEBUG    [2021-07-18 20:39:15,078] line_lengths old: 28; new: 34
+DEBUG    [2021-07-18 20:39:15,079] -> code[equal] old[1:24] new[1:24]
+DEBUG    [2021-07-18 20:39:15,079] copy old[1:27] new[1:23]
+DEBUG    [2021-07-18 20:39:15,080] parse_part from 24 to 25 (to 25 in part parser)
+DEBUG    [2021-07-18 20:39:15,080] -> code[replace] old[25:28] new[25:34]
+DEBUG    [2021-07-18 20:39:15,083] parse_part from 26 to 34 (to 33 in part parser)
+DEBUG    [2021-07-18 20:39:15,083] diff parser end
+DEBUG    [2021-07-18 20:39:24,576] diff parser start
+DEBUG    [2021-07-18 20:39:24,576] line_lengths old: 34; new: 32
+DEBUG    [2021-07-18 20:39:24,577] -> code[equal] old[1:31] new[1:31]
+DEBUG    [2021-07-18 20:39:24,577] copy old[1:33] new[1:31]
+DEBUG    [2021-07-18 20:39:24,577] -> code[replace] old[32:34] new[32:32]
+DEBUG    [2021-07-18 20:39:24,578] parse_part from 32 to 32 (to 31 in part parser)
+DEBUG    [2021-07-18 20:39:24,578] diff parser end
+DEBUG    [2021-07-18 20:51:35,365] diff parser start
+DEBUG    [2021-07-18 20:51:35,366] line_lengths old: 32; new: 17
+DEBUG    [2021-07-18 20:51:35,366] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:51:35,366] copy old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:51:35,366] -> code[insert] old[4:3] new[4:4]
+DEBUG    [2021-07-18 20:51:35,366] parse_part from 4 to 4 (to 5 in part parser)
+DEBUG    [2021-07-18 20:51:35,366] -> code[equal] old[4:15] new[5:16]
+DEBUG    [2021-07-18 20:51:35,367] copy old[5:20] new[5:15]
+DEBUG    [2021-07-18 20:51:35,367] parse_part from 16 to 17 (to 16 in part parser)
+DEBUG    [2021-07-18 20:51:35,367] -> code[replace] old[16:32] new[17:17]
+DEBUG    [2021-07-18 20:51:35,368] diff parser end
+DEBUG    [2021-07-18 20:51:38,238] diff parser start
+DEBUG    [2021-07-18 20:51:38,238] line_lengths old: 17; new: 17
+DEBUG    [2021-07-18 20:51:38,239] -> code[equal] old[1:16] new[1:16]
+DEBUG    [2021-07-18 20:51:38,239] copy old[1:16] new[1:15]
+DEBUG    [2021-07-18 20:51:38,239] parse_part from 16 to 17 (to 16 in part parser)
+DEBUG    [2021-07-18 20:51:38,240] -> code[replace] old[17:17] new[17:17]
+DEBUG    [2021-07-18 20:51:38,240] diff parser end
+DEBUG    [2021-07-18 20:52:01,496] diff parser start
+DEBUG    [2021-07-18 20:52:01,496] line_lengths old: 17; new: 27
+DEBUG    [2021-07-18 20:52:01,496] -> code[equal] old[1:16] new[1:16]
+DEBUG    [2021-07-18 20:52:01,496] copy old[1:16] new[1:15]
+DEBUG    [2021-07-18 20:52:01,497] parse_part from 16 to 17 (to 17 in part parser)
+DEBUG    [2021-07-18 20:52:01,497] -> code[replace] old[17:17] new[17:27]
+DEBUG    [2021-07-18 20:52:01,498] parse_part from 18 to 23 (to 23 in part parser)
+DEBUG    [2021-07-18 20:52:01,498] parse_part from 24 to 27 (to 26 in part parser)
+DEBUG    [2021-07-18 20:52:01,498] diff parser end
+DEBUG    [2021-07-18 20:53:50,977] diff parser start
+DEBUG    [2021-07-18 20:53:50,978] line_lengths old: 27; new: 3
+DEBUG    [2021-07-18 20:53:50,978] -> code[replace] old[1:4] new[1:1]
+DEBUG    [2021-07-18 20:53:50,979] parse_part from 1 to 1 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:50,980] -> code[equal] old[5:5] new[2:2]
+DEBUG    [2021-07-18 20:53:50,982] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:50,983] -> code[replace] old[6:27] new[3:3]
+DEBUG    [2021-07-18 20:53:50,983] diff parser end
+DEBUG    [2021-07-18 20:53:53,957] diff parser start
+DEBUG    [2021-07-18 20:53:53,957] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:53,957] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:53,958] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:53,958] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:53,958] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:53,958] diff parser end
+DEBUG    [2021-07-18 20:53:55,911] diff parser start
+DEBUG    [2021-07-18 20:53:55,911] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:55,911] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:55,912] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:55,912] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:55,912] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:55,912] diff parser end
+DEBUG    [2021-07-18 20:53:58,987] diff parser start
+DEBUG    [2021-07-18 20:53:58,988] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:58,988] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:58,989] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:58,990] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:58,990] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:58,991] diff parser end
+DEBUG    [2021-07-18 20:53:59,400] diff parser start
+DEBUG    [2021-07-18 20:53:59,400] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:59,400] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:59,401] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:59,401] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:59,401] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:59,401] diff parser end
+DEBUG    [2021-07-18 20:53:59,570] diff parser start
+DEBUG    [2021-07-18 20:53:59,571] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:59,571] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:59,571] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:59,572] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:59,572] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:59,572] diff parser end
+DEBUG    [2021-07-18 20:53:59,935] diff parser start
+DEBUG    [2021-07-18 20:53:59,935] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:53:59,935] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:53:59,935] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:53:59,935] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:53:59,935] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:53:59,935] diff parser end
+DEBUG    [2021-07-18 20:54:00,116] diff parser start
+DEBUG    [2021-07-18 20:54:00,116] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 20:54:00,117] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 20:54:00,117] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 20:54:00,117] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 20:54:00,117] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 20:54:00,117] diff parser end
+DEBUG    [2021-07-18 20:54:19,380] diff parser start
+DEBUG    [2021-07-18 20:54:19,380] line_lengths old: 3; new: 4
+DEBUG    [2021-07-18 20:54:19,380] -> code[replace] old[1:1] new[1:2]
+DEBUG    [2021-07-18 20:54:19,380] parse_part from 1 to 2 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:19,381] -> code[equal] old[2:2] new[3:3]
+DEBUG    [2021-07-18 20:54:19,381] parse_part from 3 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:19,381] -> code[replace] old[3:3] new[4:4]
+DEBUG    [2021-07-18 20:54:19,381] diff parser end
+DEBUG    [2021-07-18 20:54:22,472] diff parser start
+DEBUG    [2021-07-18 20:54:22,472] line_lengths old: 4; new: 4
+DEBUG    [2021-07-18 20:54:22,472] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:54:22,472] copy old[2:2] new[1:2]
+DEBUG    [2021-07-18 20:54:22,473] parse_part from 3 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:22,473] -> code[replace] old[4:4] new[4:4]
+DEBUG    [2021-07-18 20:54:22,473] diff parser end
+DEBUG    [2021-07-18 20:54:23,005] diff parser start
+DEBUG    [2021-07-18 20:54:23,005] line_lengths old: 4; new: 4
+DEBUG    [2021-07-18 20:54:23,005] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:54:23,006] copy old[2:2] new[1:2]
+DEBUG    [2021-07-18 20:54:23,006] parse_part from 3 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:23,006] -> code[replace] old[4:4] new[4:4]
+DEBUG    [2021-07-18 20:54:23,006] diff parser end
+DEBUG    [2021-07-18 20:54:32,952] diff parser start
+DEBUG    [2021-07-18 20:54:32,952] line_lengths old: 4; new: 4
+DEBUG    [2021-07-18 20:54:32,952] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:54:32,952] copy old[2:2] new[1:2]
+DEBUG    [2021-07-18 20:54:32,953] parse_part from 3 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:32,953] -> code[replace] old[4:4] new[4:4]
+DEBUG    [2021-07-18 20:54:32,953] diff parser end
+DEBUG    [2021-07-18 20:54:35,513] diff parser start
+DEBUG    [2021-07-18 20:54:35,513] line_lengths old: 4; new: 4
+DEBUG    [2021-07-18 20:54:35,513] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:54:35,513] copy old[2:2] new[1:2]
+DEBUG    [2021-07-18 20:54:35,514] parse_part from 3 to 4 (to 3 in part parser)
+DEBUG    [2021-07-18 20:54:35,515] -> code[replace] old[4:4] new[4:4]
+DEBUG    [2021-07-18 20:54:35,515] diff parser end
+DEBUG    [2021-07-18 20:54:43,740] diff parser start
+DEBUG    [2021-07-18 20:54:43,740] line_lengths old: 4; new: 6
+DEBUG    [2021-07-18 20:54:43,740] -> code[equal] old[1:3] new[1:3]
+DEBUG    [2021-07-18 20:54:43,740] copy old[2:2] new[1:2]
+DEBUG    [2021-07-18 20:54:43,740] parse_part from 3 to 4 (to 5 in part parser)
+DEBUG    [2021-07-18 20:54:43,740] -> code[replace] old[4:4] new[4:6]
+DEBUG    [2021-07-18 20:54:43,741] parse_part from 5 to 6 (to 5 in part parser)
+DEBUG    [2021-07-18 20:54:43,741] diff parser end
+DEBUG    [2021-07-18 21:21:22,464] diff parser start
+DEBUG    [2021-07-18 21:21:22,465] line_lengths old: 6; new: 1
+DEBUG    [2021-07-18 21:21:22,465] -> code[replace] old[1:6] new[1:1]
+DEBUG    [2021-07-18 21:21:22,465] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 21:21:22,466] diff parser end
+DEBUG    [2021-07-18 21:21:41,451] diff parser start
+DEBUG    [2021-07-18 21:21:41,451] line_lengths old: 1; new: 2
+DEBUG    [2021-07-18 21:21:41,452] -> code[replace] old[1:1] new[1:2]
+DEBUG    [2021-07-18 21:21:41,452] parse_part from 1 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:41,452] diff parser end
+DEBUG    [2021-07-18 21:21:46,857] diff parser start
+DEBUG    [2021-07-18 21:21:46,857] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:46,857] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:46,858] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:46,858] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:46,858] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:46,858] diff parser end
+DEBUG    [2021-07-18 21:21:47,598] diff parser start
+DEBUG    [2021-07-18 21:21:47,599] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:47,600] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:47,601] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:47,601] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:47,601] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:47,601] diff parser end
+DEBUG    [2021-07-18 21:21:50,328] diff parser start
+DEBUG    [2021-07-18 21:21:50,329] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:50,329] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:50,330] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:50,330] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:50,330] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:50,330] diff parser end
+DEBUG    [2021-07-18 21:21:51,896] diff parser start
+DEBUG    [2021-07-18 21:21:51,896] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:51,896] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:51,896] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:51,896] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:51,896] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:51,896] diff parser end
+DEBUG    [2021-07-18 21:21:52,396] diff parser start
+DEBUG    [2021-07-18 21:21:52,396] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,396] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,396] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,397] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,397] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,397] diff parser end
+DEBUG    [2021-07-18 21:21:52,435] diff parser start
+DEBUG    [2021-07-18 21:21:52,435] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,435] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,435] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,435] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,436] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,436] diff parser end
+DEBUG    [2021-07-18 21:21:52,469] diff parser start
+DEBUG    [2021-07-18 21:21:52,470] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,470] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,470] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,470] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,471] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,471] diff parser end
+DEBUG    [2021-07-18 21:21:52,503] diff parser start
+DEBUG    [2021-07-18 21:21:52,503] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,503] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,503] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,503] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,503] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,504] diff parser end
+DEBUG    [2021-07-18 21:21:52,532] diff parser start
+DEBUG    [2021-07-18 21:21:52,532] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,532] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,532] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,532] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,532] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,533] diff parser end
+DEBUG    [2021-07-18 21:21:52,563] diff parser start
+DEBUG    [2021-07-18 21:21:52,563] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,563] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,563] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,563] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,564] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,564] diff parser end
+DEBUG    [2021-07-18 21:21:52,601] diff parser start
+DEBUG    [2021-07-18 21:21:52,601] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,601] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,601] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,601] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,602] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,602] diff parser end
+DEBUG    [2021-07-18 21:21:52,642] diff parser start
+DEBUG    [2021-07-18 21:21:52,642] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:52,642] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,643] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:52,643] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:52,643] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:52,643] diff parser end
+DEBUG    [2021-07-18 21:21:54,575] diff parser start
+DEBUG    [2021-07-18 21:21:54,577] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:21:54,577] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:54,578] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:21:54,578] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:21:54,579] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:21:54,580] diff parser end
+DEBUG    [2021-07-18 21:22:01,459] diff parser start
+DEBUG    [2021-07-18 21:22:01,459] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:22:01,460] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:01,460] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:01,460] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:22:01,460] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:22:01,460] diff parser end
+DEBUG    [2021-07-18 21:22:13,570] diff parser start
+DEBUG    [2021-07-18 21:22:13,570] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:22:13,570] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:13,570] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:13,570] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:22:13,571] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:22:13,571] diff parser end
+DEBUG    [2021-07-18 21:22:43,212] diff parser start
+DEBUG    [2021-07-18 21:22:43,213] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:22:43,213] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:43,213] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:43,213] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:22:43,213] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:22:43,213] diff parser end
+DEBUG    [2021-07-18 21:22:46,306] diff parser start
+DEBUG    [2021-07-18 21:22:46,306] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:22:46,306] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:46,306] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:46,306] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:22:46,306] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:22:46,307] diff parser end
+DEBUG    [2021-07-18 21:22:57,251] diff parser start
+DEBUG    [2021-07-18 21:22:57,251] line_lengths old: 2; new: 2
+DEBUG    [2021-07-18 21:22:57,251] -> code[equal] old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:57,251] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 21:22:57,252] -> code[replace] old[2:2] new[2:2]
+DEBUG    [2021-07-18 21:22:57,252] parse_part from 2 to 2 (to 1 in part parser)
+DEBUG    [2021-07-18 21:22:57,252] diff parser end
+DEBUG    [2021-07-18 21:34:30,362] diff parser start
+DEBUG    [2021-07-18 21:34:30,362] line_lengths old: 2; new: 14
+DEBUG    [2021-07-18 21:34:30,363] -> code[replace] old[1:2] new[1:14]
+DEBUG    [2021-07-18 21:34:30,364] parse_part from 1 to 14 (to 13 in part parser)
+DEBUG    [2021-07-18 21:34:30,364] diff parser end
+DEBUG    [2021-07-18 21:34:32,094] diff parser start
+DEBUG    [2021-07-18 21:34:32,095] line_lengths old: 14; new: 14
+DEBUG    [2021-07-18 21:34:32,095] -> code[equal] old[1:13] new[1:13]
+DEBUG    [2021-07-18 21:34:32,096] copy old[1:12] new[1:12]
+DEBUG    [2021-07-18 21:34:32,097] parse_part from 13 to 14 (to 13 in part parser)
+DEBUG    [2021-07-18 21:34:32,097] -> code[replace] old[14:14] new[14:14]
+DEBUG    [2021-07-18 21:34:32,098] diff parser end
+INFO     [2021-07-18 22:07:26,940] Load data from SQL
+INFO     [2021-07-18 22:09:09,210] Get each room info
+ERROR    [2021-07-18 22:09:09,240] Fatal error in main loop
+Traceback (most recent call last):
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1751, in _execute_context
+    self.dialect.do_executemany(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 962, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\psycopg2\extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.UndefinedColumn: column "request_datetime" of relation "n1_ad_info" does not exist
+LINE 1: ...urrent, average_price_last_month, build_material, request_da...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kelagin\AppData\Local\Temp/ipykernel_14728/3669674926.py", line 177, in room_info_load
+    df.to_sql("n1_ad_info", con=engine, if_exists='append', index=False)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\core\generic.py", line 2869, in to_sql
+    sql.to_sql(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 717, in to_sql
+    pandas_sql.to_sql(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1761, in to_sql
+    sql_engine.insert_records(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1350, in insert_records
+    raise err
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1340, in insert_records
+    table.insert(chunksize=chunksize, method=method)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 967, in insert
+    exec_insert(conn, keys, chunk_iter)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 882, in _execute_insert
+    conn.execute(self.table.insert(), data)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1263, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\sql\elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1751, in _execute_context
+    self.dialect.do_executemany(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 962, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\psycopg2\extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "request_datetime" of relation "n1_ad_info" does not exist
+LINE 1: ...urrent, average_price_last_month, build_material, request_da...
+                                                             ^
+
+[SQL: INSERT INTO n1_ad_info (ad_id, total_area, floor, max_floor, constr_year, price, average_price_current, average_price_last_month, build_material, request_datetime) VALUES (%(ad_id)s, %(total_area)s, %(floor)s, %(max_floor)s, %(constr_year)s, %(price)s, %(average_price_current)s, %(average_price_last_month)s, %(build_material)s, %(request_datetime)s)]
+[parameters: ({'ad_id': 1, 'total_area': '61.37', 'floor': '1', 'max_floor': '17', 'constr_year': '2021', 'price': '4000000', 'average_price_current': '4340295', 'average_price_last_month': '4518699', 'build_material': 'монолит', 'request_datetime': '2021-07-18 22:08:43'}, {'ad_id': 2, 'total_area': '43.83', 'floor': '13', 'max_floor': '22', 'constr_year': '2021', 'price': '4200000', 'average_price_current': '4078695', 'average_price_last_month': '4022963', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:42'}, {'ad_id': 3, 'total_area': '47.9', 'floor': '16', 'max_floor': '17', 'constr_year': '2020', 'price': '3125000', 'average_price_current': '2998524', 'average_price_last_month': '2981621', 'build_material': 'монолит', 'request_datetime': '2021-07-18 22:08:44'}, {'ad_id': 4, 'total_area': '39.05', 'floor': '12', 'max_floor': '25', 'constr_year': '2022', 'price': '4300000', 'average_price_current': '4420143', 'average_price_last_month': '4170909', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:45'}, {'ad_id': 5, 'total_area': '21.39', 'floor': '7', 'max_floor': '25', 'constr_year': '2021', 'price': '3000000', 'average_price_current': '3000000', 'average_price_last_month': '2864489', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:48'}, {'ad_id': 6, 'total_area': '46.25', 'floor': '19', 'max_floor': '25', 'constr_year': '2022', 'price': '4830000', 'average_price_current': '4830000', 'average_price_last_month': '4816666', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:54'}, {'ad_id': 7, 'total_area': '39.14', 'floor': '13', 'max_floor': '25', 'constr_year': '2022', 'price': '4600000', 'average_price_current': '4420143', 'average_price_last_month': '4170909', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:49'}, {'ad_id': 8, 'total_area': '59.4', 'floor': '16', 'max_floor': '17', 'constr_year': '2020', 'price': '4280000', 'average_price_current': '4008400', 'average_price_last_month': '3840000', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:08:43'}, {'ad_id': 9, 'total_area': '250.47', 'floor': '24', 'max_floor': '25', 'constr_year': '2023', 'price': '45000000', 'average_price_current': '45000000', 'average_price_last_month': '', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:09:03'}, {'ad_id': 10, 'total_area': '31', 'floor': '3', 'max_floor': '9', 'constr_year': '1971', 'price': '2560000', 'average_price_current': '2763598', 'average_price_last_month': '2825301', 'build_material': 'кирпич', 'request_datetime': '2021-07-18 22:09:09'})]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO     [2021-07-18 22:12:52,392] Load data from SQL
+INFO     [2021-07-18 22:14:18,406] Get each room info
+ERROR    [2021-07-18 22:14:18,462] Fatal error in main loop
+Traceback (most recent call last):
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1751, in _execute_context
+    self.dialect.do_executemany(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 962, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\psycopg2\extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type numeric: ""
+LINE 1: ....47', '24', '25', '2023', '45000000', '45000000', '', 'кирпи...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kelagin\AppData\Local\Temp/ipykernel_14728/3669674926.py", line 177, in room_info_load
+    df.to_sql("n1_ad_info", con=engine, if_exists='append', index=False)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\core\generic.py", line 2869, in to_sql
+    sql.to_sql(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 717, in to_sql
+    pandas_sql.to_sql(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1761, in to_sql
+    sql_engine.insert_records(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1350, in insert_records
+    raise err
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 1340, in insert_records
+    table.insert(chunksize=chunksize, method=method)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 967, in insert
+    exec_insert(conn, keys, chunk_iter)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\pandas\io\sql.py", line 882, in _execute_insert
+    conn.execute(self.table.insert(), data)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1263, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\sql\elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\engine\base.py", line 1751, in _execute_context
+    self.dialect.do_executemany(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 962, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "C:\Users\kelagin\.virtualenvs\Web_Scraping_Test_Task-fSum3kwq\lib\site-packages\psycopg2\extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type numeric: ""
+LINE 1: ....47', '24', '25', '2023', '45000000', '45000000', '', 'кирпи...
+                                                             ^
+
+[SQL: INSERT INTO n1_ad_info (ad_id, total_area, floor, max_floor, constr_year, price, average_price_current, average_price_last_month, build_material, request_datetime) VALUES (%(ad_id)s, %(total_area)s, %(floor)s, %(max_floor)s, %(constr_year)s, %(price)s, %(average_price_current)s, %(average_price_last_month)s, %(build_material)s, %(request_datetime)s)]
+[parameters: ({'ad_id': 1, 'total_area': '61.37', 'floor': '1', 'max_floor': '17', 'constr_year': '2021', 'price': '4000000', 'average_price_current': '4340295', 'average_price_last_month': '4518699', 'build_material': 'монолит', 'request_datetime': '2021-07-18 22:13:52'}, {'ad_id': 2, 'total_area': '43.83', 'floor': '13', 'max_floor': '22', 'constr_year': '2021', 'price': '4200000', 'average_price_current': '4078695', 'average_price_last_month': '4022963', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:13:50'}, {'ad_id': 3, 'total_area': '47.9', 'floor': '16', 'max_floor': '17', 'constr_year': '2020', 'price': '3125000', 'average_price_current': '2998524', 'average_price_last_month': '2981621', 'build_material': 'монолит', 'request_datetime': '2021-07-18 22:13:49'}, {'ad_id': 4, 'total_area': '39.05', 'floor': '12', 'max_floor': '25', 'constr_year': '2022', 'price': '4300000', 'average_price_current': '4420143', 'average_price_last_month': '4170909', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:14:03'}, {'ad_id': 5, 'total_area': '21.39', 'floor': '7', 'max_floor': '25', 'constr_year': '2021', 'price': '3000000', 'average_price_current': '3000000', 'average_price_last_month': '2864489', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:14:04'}, {'ad_id': 6, 'total_area': '46.25', 'floor': '19', 'max_floor': '25', 'constr_year': '2022', 'price': '4830000', 'average_price_current': '4830000', 'average_price_last_month': '4816666', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:14:03'}, {'ad_id': 7, 'total_area': '39.14', 'floor': '13', 'max_floor': '25', 'constr_year': '2022', 'price': '4600000', 'average_price_current': '4420143', 'average_price_last_month': '4170909', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:14:03'}, {'ad_id': 8, 'total_area': '59.4', 'floor': '16', 'max_floor': '17', 'constr_year': '2020', 'price': '4280000', 'average_price_current': '4008400', 'average_price_last_month': '3840000', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:13:51'}, {'ad_id': 9, 'total_area': '250.47', 'floor': '24', 'max_floor': '25', 'constr_year': '2023', 'price': '45000000', 'average_price_current': '45000000', 'average_price_last_month': '', 'build_material': 'кирпич - монолит', 'request_datetime': '2021-07-18 22:14:11'}, {'ad_id': 10, 'total_area': '31', 'floor': '3', 'max_floor': '9', 'constr_year': '1971', 'price': '2560000', 'average_price_current': '2763598', 'average_price_last_month': '2825301', 'build_material': 'кирпич', 'request_datetime': '2021-07-18 22:14:18'})]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+DEBUG    [2021-07-18 22:42:56,754] diff parser start
+DEBUG    [2021-07-18 22:42:56,755] line_lengths old: 14; new: 179
+DEBUG    [2021-07-18 22:42:56,755] -> code[replace] old[1:4] new[1:3]
+DEBUG    [2021-07-18 22:42:56,758] parse_part from 1 to 3 (to 4 in part parser)
+DEBUG    [2021-07-18 22:42:56,758] -> code[equal] old[5:5] new[4:4]
+DEBUG    [2021-07-18 22:42:56,759] parse_part from 4 to 5 (to 5 in part parser)
+DEBUG    [2021-07-18 22:42:56,759] -> code[replace] old[6:6] new[5:9]
+DEBUG    [2021-07-18 22:42:56,759] parse_part from 6 to 9 (to 10 in part parser)
+DEBUG    [2021-07-18 22:42:56,760] -> code[equal] old[7:7] new[10:10]
+DEBUG    [2021-07-18 22:42:56,760] parse_part from 10 to 11 (to 12 in part parser)
+DEBUG    [2021-07-18 22:42:56,760] -> code[replace] old[8:10] new[11:11]
+DEBUG    [2021-07-18 22:42:56,760] -> code[equal] old[11:11] new[12:12]
+DEBUG    [2021-07-18 22:42:56,761] parse_part from 12 to 13 (to 15 in part parser)
+DEBUG    [2021-07-18 22:42:56,761] -> code[replace] old[12:12] new[13:13]
+DEBUG    [2021-07-18 22:42:56,761] -> code[equal] old[13:13] new[14:14]
+DEBUG    [2021-07-18 22:42:56,777] parse_part from 14 to 20 (to 21 in part parser)
+DEBUG    [2021-07-18 22:42:56,777] -> code[replace] old[14:14] new[15:179]
+DEBUG    [2021-07-18 22:42:56,833] parse_part from 21 to 179 (to 178 in part parser)
+DEBUG    [2021-07-18 22:42:56,834] diff parser end
+DEBUG    [2021-07-18 22:43:00,366] diff parser start
+DEBUG    [2021-07-18 22:43:00,367] line_lengths old: 179; new: 179
+DEBUG    [2021-07-18 22:43:00,368] -> code[equal] old[1:178] new[1:178]
+DEBUG    [2021-07-18 22:43:00,369] copy old[1:148] new[1:148]
+DEBUG    [2021-07-18 22:43:00,370] parse_part from 149 to 149 (to 149 in part parser)
+DEBUG    [2021-07-18 22:43:00,379] parse_part from 150 to 179 (to 178 in part parser)
+DEBUG    [2021-07-18 22:43:00,379] -> code[replace] old[179:179] new[179:179]
+DEBUG    [2021-07-18 22:43:00,379] diff parser end
+DEBUG    [2021-07-18 22:43:00,536] diff parser start
+DEBUG    [2021-07-18 22:43:00,537] line_lengths old: 179; new: 179
+DEBUG    [2021-07-18 22:43:00,537] -> code[equal] old[1:178] new[1:178]
+DEBUG    [2021-07-18 22:43:00,537] copy old[1:148] new[1:148]
+DEBUG    [2021-07-18 22:43:00,537] parse_part from 149 to 149 (to 149 in part parser)
+DEBUG    [2021-07-18 22:43:00,540] parse_part from 150 to 179 (to 178 in part parser)
+DEBUG    [2021-07-18 22:43:00,540] -> code[replace] old[179:179] new[179:179]
+DEBUG    [2021-07-18 22:43:00,540] diff parser end
+DEBUG    [2021-07-18 22:45:18,997] diff parser start
+DEBUG    [2021-07-18 22:45:18,997] line_lengths old: 179; new: 1
+DEBUG    [2021-07-18 22:45:18,997] -> code[replace] old[1:179] new[1:1]
+DEBUG    [2021-07-18 22:45:18,997] parse_part from 1 to 1 (to 0 in part parser)
+DEBUG    [2021-07-18 22:45:18,997] diff parser end
+DEBUG    [2021-07-18 22:46:20,970] diff parser start
+DEBUG    [2021-07-18 22:46:20,971] line_lengths old: 1; new: 3
+DEBUG    [2021-07-18 22:46:20,971] -> code[replace] old[1:1] new[1:3]
+DEBUG    [2021-07-18 22:46:20,974] parse_part from 1 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 22:46:20,974] diff parser end
+DEBUG    [2021-07-18 22:46:23,322] diff parser start
+DEBUG    [2021-07-18 22:46:23,322] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 22:46:23,323] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 22:46:23,323] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 22:46:23,324] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 22:46:23,324] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 22:46:23,324] diff parser end
+DEBUG    [2021-07-18 22:46:23,437] diff parser start
+DEBUG    [2021-07-18 22:46:23,437] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 22:46:23,437] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 22:46:23,437] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 22:46:23,438] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 22:46:23,438] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 22:46:23,438] diff parser end
+DEBUG    [2021-07-18 22:46:23,580] diff parser start
+DEBUG    [2021-07-18 22:46:23,581] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 22:46:23,581] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 22:46:23,581] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 22:46:23,582] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 22:46:23,583] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 22:46:23,583] diff parser end
+DEBUG    [2021-07-18 22:46:23,726] diff parser start
+DEBUG    [2021-07-18 22:46:23,727] line_lengths old: 3; new: 3
+DEBUG    [2021-07-18 22:46:23,727] -> code[equal] old[1:2] new[1:2]
+DEBUG    [2021-07-18 22:46:23,727] copy old[1:1] new[1:1]
+DEBUG    [2021-07-18 22:46:23,728] parse_part from 2 to 3 (to 2 in part parser)
+DEBUG    [2021-07-18 22:46:23,728] -> code[replace] old[3:3] new[3:3]
+DEBUG    [2021-07-18 22:46:23,729] diff parser end
+INFO     [2021-07-18 23:00:25,833] Load data from SQL
+INFO     [2021-07-18 23:01:45,746] Get each room info
+INFO     [2021-07-18 23:01:45,776] Load info to database

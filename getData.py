@@ -9,6 +9,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 import pandas as pd
+import numpy as np
 
 import logging
 
@@ -39,7 +40,7 @@ def room_list(rooms, rooms_dict, driver):
         # No more then 10 buildings are needed
         if len(rooms_dict['address']) == 10 :
             break
-
+        # Check if there enough data in opened page
         if index+1 == len(rooms) and len(rooms_dict['address']) < 10:
             ele = driver.find_element_by_tag_name('body')
             ele.send_keys(Keys.END)
@@ -49,11 +50,11 @@ def room_list(rooms, rooms_dict, driver):
             rooms = driver.find_elements_by_xpath('''//div[@class="living-search-item offers-search__item"]''')
             room_list(rooms)
 
-def room_info(link_url):
+def room_info(link_url, ad_id):
     scrap_result = {
        # 'address': f'{address}',
         #'room_type': f'{room_type}',
-        'link': f'{link_url}',
+        'ad_id': ad_id,
         'total_area': '',
         'floor': '',
         'max_floor': '',
@@ -162,45 +163,24 @@ def room_info_load(engine):
         logging.info('Load data from SQL')
 
         rooms_link = df1['link'].to_list()
+        rooms_id   = df1['id'].to_list()
 
+        # Number of processors
         num_cores = multiprocessing.cpu_count()
 
         # Got data from each link
-        room_list = Parallel(n_jobs=num_cores)(delayed(room_info)(rooms_link[i]) for i in range(len(rooms_link)))
+        room_list = Parallel(n_jobs=num_cores)(delayed(room_info)(rooms_link[i], rooms_id[i]) for i in range(len(rooms_link)))
 
         df = pd.DataFrame(room_list)
 
         logging.info('Get each room info')
 
         # Load to temp
-        df.to_sql("n1_ad_info_temp", con=engine, if_exists='replace', index=False)
+
+        df = df.replace(r'^\s*$', np.NaN, regex=True)
+        
+        df.to_sql("n1_ad_info", con=engine, if_exists='append', index=False)
 
         logging.info('Load info to database')
-
-        # Query data
-        query = '''insert into n1_ad_info
-        Select 
-            ad.id,
-            CAST(total_area as DECIMAL(10, 2)),
-            CAST(floor as INT),
-            CAST(max_floor as INT),
-            CAST(constr_year as INT),
-            CAST(price as DECIMAL(20, 2)),
-            CASE WHEN average_price_current = '' THEN NULL ELSE average_price_current :: DECIMAL(20,2) END,
-            CASE WHEN average_price_last_month = '' THEN NULL ELSE average_price_last_month :: DECIMAL(20,2) END,
-            build_material,
-            CAST(request_datetime as TIMESTAMP)
-        from
-            n1_ad_info_temp as temp
-        join
-            n1_ad as ad
-        ON
-            ad.link = temp.link
-        ;
-        DROP TABLE IF EXISTS n1_ad_info_temp'''
-
-        engine.execute(query)
-
-        logging.info('Execute query')
     except Exception:
         logging.exception("Fatal error in main loop")
