@@ -150,10 +150,10 @@ from joblib import Parallel, delayed
 def room_info_load(engine):
 
     try:
-        year = datetime.datetime.today().year
-        month = datetime.datetime.today().month
-        day = datetime.datetime.today().day
-        hour = datetime.datetime.today().hour
+        year = datetime.today().year
+        month = datetime.today().month
+        day = datetime.today().day
+        hour = datetime.today().hour
         logging.basicConfig(format = u'%(levelname)-8s [%(asctime)s] %(message)s', level = logging.DEBUG, filename = '.\Logs\Rooms_info_Update_{0}_{1}_{2}_{3}.log'.format(year, month, day, hour))
         
         # Load data from database with links

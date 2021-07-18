@@ -27,6 +27,7 @@ CREATE TABLE n1_ad_info (
 			REFERENCES n1_ad(id)
 );
 
+Скрипт сохраниения информации в таблицу n1_ad_info
 
 insert into n1_ad_info
 Select 
@@ -39,7 +40,7 @@ Select
 	CASE WHEN average_price_current = '' THEN NULL ELSE average_price_current :: DECIMAL(20,2) END,
 	CASE WHEN average_price_last_month = '' THEN NULL ELSE average_price_last_month :: DECIMAL(20,2) END,
 	build_material,
-	CAST(created_on as TIMESTAMP)
+	CAST(request_datetime as TIMESTAMP)
 from
 	n1_ad_info_temp as temp
 join
