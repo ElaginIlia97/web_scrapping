@@ -1,0 +1,50 @@
+Скрипт создания таблицы объявлений
+
+CREATE TABLE n1_ad (
+		id 		SERIAL PRIMARY KEY,
+		link 		TEXT UNIQUE NOT NULL,
+		layout_type 	VARCHAR(50),
+		address		VARCHAR(200),
+		created_on 	TIMESTAMP NOT NULL
+);
+
+
+Скрипт создания таблицы информации, содержащейся в объявлении
+
+CREATE TABLE n1_ad_info (
+		ad_id 					INT,
+		total_area 				DECIMAL(10, 2),
+		floor					INT,
+		max_floor				INT,
+		constr_year				INT,
+		price					DECIMAL(20, 2),
+		average_price_current			DECIMAL(20, 2),
+		average_price_last_month		DECIMAL(20, 2),
+		build_material				VARCHAR(200),
+		created_on 				TIMESTAMP NOT NULL,
+		CONSTRAINT n1_ad_info_ad_id_fkey
+			FOREIGN KEY(ad_id)
+			REFERENCES n1_ad(id)
+);
+
+
+insert into n1_ad_info
+Select 
+	ad.id,
+	CAST(total_area as DECIMAL(10, 2)),
+	CAST(floor as INT),
+	CAST(max_floor as INT),
+	CAST(constr_year as INT),
+	CAST(price as DECIMAL(20, 2)),
+	CASE WHEN average_price_current = '' THEN NULL ELSE average_price_current :: DECIMAL(20,2) END,
+	CASE WHEN average_price_last_month = '' THEN NULL ELSE average_price_last_month :: DECIMAL(20,2) END,
+	build_material,
+	CAST(created_on as TIMESTAMP)
+from
+	n1_ad_info_temp as temp
+join
+	n1_ad as ad
+ON
+	ad.link = temp.link
+;
+DROP TABLE IF EXISTS n1_ad_info_temp
